@@ -2,11 +2,11 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sturrd_flutter/core/constants/images.dart';
-import 'package:sturrd_flutter/features/sturrd/data/datasources/dates_data_remote_datasource.dart';
-import 'package:sturrd_flutter/features/sturrd/presentation/bloc/dates_bloc/dates_bloc.dart';
-import 'package:sturrd_flutter/features/sturrd/presentation/bloc/dates_bloc/dates_event.dart';
-import 'package:sturrd_flutter/features/sturrd/presentation/bloc/dates_bloc/dates_state.dart';
-import 'package:sturrd_flutter/features/sturrd/presentation/widgets/dates_card.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/data/datasources/dates_data_remote_datasource.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/presentation/bloc/dates_bloc/dates_bloc.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/presentation/bloc/dates_bloc/dates_event.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/presentation/bloc/dates_bloc/dates_state.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/presentation/widgets/dates_card.dart';
 
 class Browse extends StatefulWidget {
   static const id = 'Browse Page route';

@@ -3,10 +3,10 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:sturrd_flutter/core/error/exceptions.dart';
 import 'package:sturrd_flutter/core/error/failures.dart';
 import 'package:sturrd_flutter/core/network_info/network_info.dart';
-import 'package:sturrd_flutter/features/sturrd/data/datasources/dates_data_remote_datasource.dart';
-import 'package:sturrd_flutter/features/sturrd/domain/entities/dates_list.dart';
-import 'package:sturrd_flutter/features/sturrd/domain/entities/dates_list_stream.dart';
-import 'package:sturrd_flutter/features/sturrd/domain/repositories/dates_data_repository.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/data/datasources/dates_data_remote_datasource.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/entities/dates_list.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/entities/dates_list_stream.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/repositories/dates_data_repository.dart';
 import 'package:meta/meta.dart';
 
 class DatesDataRepositoryImpl implements DatesDataRepository {

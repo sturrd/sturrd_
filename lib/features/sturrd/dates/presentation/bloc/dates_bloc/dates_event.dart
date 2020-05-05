@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:sturrd_flutter/features/sturrd/data/datasources/dates_data_remote_datasource.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/data/datasources/dates_data_remote_datasource.dart';
 
 
 abstract class DatesEvent extends Equatable {

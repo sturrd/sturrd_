@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:sturrd_flutter/features/sturrd/presentation/pages/hometabs/browse_tab.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/presentation/pages/hometabs/browse_tab.dart';
 
 
 class BrowseBloc{

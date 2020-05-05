@@ -1,5 +1,5 @@
 import 'package:rxdart/rxdart.dart';
-import 'package:sturrd_flutter/features/sturrd/presentation/pages/select_gender_page.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/presentation/pages/select_gender_page.dart';
 
 class GenderBloc{
 final _controller = BehaviorSubject<Gender>();

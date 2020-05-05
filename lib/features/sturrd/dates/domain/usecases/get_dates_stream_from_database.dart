@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:sturrd_flutter/features/sturrd/domain/entities/dates_list_stream.dart';
-import 'package:sturrd_flutter/features/sturrd/domain/repositories/dates_data_repository.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/entities/dates_list_stream.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/repositories/dates_data_repository.dart';
 
-import '../../../../core/error/failures.dart';
-import '../../../../core/usecases/usecase.dart';
+import '../../../../../core/error/failures.dart';
+import '../../../../../core/usecases/usecase.dart';
 
 import 'package:meta/meta.dart';
 

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sturrd_flutter/core/presentation/bloc/navigator/bloc.dart';
-import 'package:sturrd_flutter/features/sturrd/presentation/bloc/gender_bloc/gender_bloc.dart';
-import 'package:sturrd_flutter/features/sturrd/presentation/widgets/CustomButton.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/presentation/bloc/gender_bloc/gender_bloc.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/presentation/widgets/CustomButton.dart';
 
 class SelectGenderPage extends StatelessWidget {
   static const id = 'SelectGenderPage';

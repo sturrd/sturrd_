@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:dartz/dartz.dart';
-import 'package:sturrd_flutter/features/sturrd/data/datasources/dates_data_remote_datasource.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/data/datasources/dates_data_remote_datasource.dart';
 
-import '../../../../core/error/failures.dart';
+import '../../../../../core/error/failures.dart';
 import '../entities/dates_list.dart';
 import '../entities/dates_list_stream.dart';
 

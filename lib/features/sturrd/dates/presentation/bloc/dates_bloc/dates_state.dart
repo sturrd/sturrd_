@@ -1,7 +1,7 @@
 import 'package:meta/meta.dart';
 import 'package:equatable/equatable.dart';
-import 'package:sturrd_flutter/features/sturrd/domain/entities/dates_list.dart';
-import 'package:sturrd_flutter/features/sturrd/domain/entities/dates_list_stream.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/entities/dates_list.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/entities/dates_list_stream.dart';
 
 abstract class DatesState extends Equatable {
   @override

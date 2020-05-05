@@ -1,8 +1,8 @@
-import 'package:sturrd_flutter/features/sturrd/domain/entities/dates_list.dart';
-import 'package:sturrd_flutter/features/sturrd/domain/entities/dates_list_stream.dart';
+import 'package:sturrd_flutter/core/error/exceptions.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/entities/dates_list.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/entities/dates_list_stream.dart';
 import 'package:firebase_database/firebase_database.dart';
 
-import '../../../../core/error/exceptions.dart';
 
 enum Dates { ALL, THEIRS, YOURS, FIFTY_FIFTY }
 

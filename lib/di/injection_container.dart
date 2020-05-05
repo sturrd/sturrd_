@@ -8,12 +8,12 @@ import 'package:sturrd_flutter/features/login/domain/repositories/login_reposito
 import 'package:sturrd_flutter/features/login/domain/usecases/get_user_from_phone_auth_sign_in.dart';
 import 'package:sturrd_flutter/features/login/domain/usecases/sign_out.dart';
 import 'package:sturrd_flutter/features/login/presentation/bloc/bloc.dart';
-import 'package:sturrd_flutter/features/sturrd/data/datasources/dates_data_remote_datasource.dart';
-import 'package:sturrd_flutter/features/sturrd/data/repositories/dates_data_repository_impl.dart';
-import 'package:sturrd_flutter/features/sturrd/domain/repositories/dates_data_repository.dart';
-import 'package:sturrd_flutter/features/sturrd/domain/usecases/get_dates_from_database.dart';
-import 'package:sturrd_flutter/features/sturrd/domain/usecases/get_dates_stream_from_database.dart';
-import 'package:sturrd_flutter/features/sturrd/presentation/bloc/dates_bloc/dates_bloc.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/data/datasources/dates_data_remote_datasource.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/data/repositories/dates_data_repository_impl.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/repositories/dates_data_repository.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/usecases/get_dates_from_database.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/domain/usecases/get_dates_stream_from_database.dart';
+import 'package:sturrd_flutter/features/sturrd/dates/presentation/bloc/dates_bloc/dates_bloc.dart';
 
 final sl = GetIt.instance;
 
